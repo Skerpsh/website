@@ -1,2 +1,43 @@
-:)
-:))
+<!DOCTYPE html>
+<html lang="us">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        
+        <!--Style for "Topnav"-->
+        <link rel="stylesheet" href="css/style_topnav.css">
+
+        <!--Style for "Menu" button on top-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title>Rheinmetall</title>
+        <link rel="icon" type="image/x-icon" href="images/Rheinmetall_Favicon.png">
+    </head>
+    <body>
+
+        <!--Topnav-->
+        <div class="topnav" id="myTopnav">
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+
+        <!--RHEINMETALL-->
+
+            <img scr="images/Rheinmetall_Favicon.png" alt="Rheinmetall" class="rheinmetall-logo">
+    </body>
+</html>
