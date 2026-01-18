@@ -10,13 +10,17 @@
         <!--Style for "Topnav"-->
         <link rel="stylesheet" href="css/style_topnav.css">
 
-        <!--Style for "Menu" button on top-->
+    <!--Style for "Menu" button on top-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <title>Rheinmetall</title>
+        <!--Style for "RHEINMETALL is"-->
+        <link rel="stylesheet" href="css/rhnmtl_is.css">
+
         <link rel="icon" type="image/x-icon" href="images/Rheinmetall_Favicon.png">
     </head>
     <body>
+
+        <title>Rheinmetall</title>
 
 <!--TOPNAV-->
 
@@ -38,7 +42,30 @@
                 } else {
                     x.className = "topnav";
                 }
-            }
+           script }
         </script>
+
+<!--RHEINMETALL IS...-->
+        <h1 class="rheinmetallis">
+            Rheinmetall is:
+            <span id="dynamicWords"></span>
+        </h1>
+
+        <section class="rhnmtlHide">
+            <div class="counter" data-counter-target="1500">0</div>
+            <div class="counter" data-counter-target="42">0</div>
+        </section>
+
+        <p class="txtAboutRhnmtl">
+            Rheinmetall is a leading German companyspecializing 
+            specializing in defense and automotive technologies, providing 
+            advanced military vehicles, weapons systems, ammunition, electronic 
+            solutions, and industrial components, combining innovation, precision, and 
+            reliability to strengthen security and mobility worldwide.
+        </p>
+
+
+
+        <script src="js/custom.js"></script>
     </body>
 </html>
