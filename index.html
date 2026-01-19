@@ -3,69 +3,130 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8" />
+        
+        <title>Rheinmetall</title>
 
+
+        
         <!--Style for Background-->
         <link rel="stylesheet" href="css/main.css">
         
+
         <!--Style for "Topnav"-->
         <link rel="stylesheet" href="css/style_topnav.css">
 
-    <!--Style for "Menu" button on top-->
+        
+        <!--Style for "Menu" button on top-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <!--Style for "RHEINMETALL is"-->
+
+        <!--Style for "Rheinmetall is"-->
         <link rel="stylesheet" href="css/rhnmtl_is.css">
 
+
+        <!--Style for "Box"-->
+        <link rel="stylesheet" href="css/box.css">
+
+
+        <!--Style for "Footer"-->
+        <link rel="stylesheet" href="css/footer.css">
+
+
+        <!--Favicon-->
         <link rel="icon" type="image/x-icon" href="images/Rheinmetall_Favicon.png">
+
+
+        <!--Smooth Scroll-->
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
     </head>
+
     <body>
+        <header>
+            
 
-        <title>Rheinmetall</title>
+            <!--TOPNAV-->
+            <div class="topnav" id="myTopnav">
+                <img src="images/rheinmetall-logo.svg" alt="Rheinmetall" class="rheinmetall-logo">
+                <a href="#news" class="but1">News</a>
+                <a href="#contact" class="but1">Contact</a>
+                <a href="#about" class="but1">About</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
 
-<!--TOPNAV-->
+            <!--<script src="js/topnav.js"></script>-->
 
-        <div class="topnav" id="myTopnav">
-            <img src="images/rheinmetall-logo.svg" alt="Rheinmetall" class="rheinmetall-logo">
-            <a href="#news" class="but1">News</a>
-            <a href="#contact" class="but1">Contact</a>
-            <a href="#about" class="but1">About</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-            </a>
-        </div>
+        </header>
 
-        <script>
-            function myFunction() {
-                var x = document.getElementById("myTopnav");
-                if (x.className === "topnav") {
-                    x.className += " responsive";
-                } else {
-                    x.className = "topnav";
-                }
-           script }
-        </script>
-
-<!--RHEINMETALL IS...-->
-        <h1 class="rheinmetallis">
-            Rheinmetall is:
-            <span id="dynamicWords"></span>
-        </h1>
-
-        <section class="rhnmtlHide">
-            <div class="counter" data-counter-target="1500">0</div>
-            <div class="counter" data-counter-target="42">0</div>
-        </section>
-
-        <p class="txtAboutRhnmtl">
-            Rheinmetall is a leading German companyspecializing 
-            specializing in defense and automotive technologies, providing 
-            advanced military vehicles, weapons systems, ammunition, electronic 
-            solutions, and industrial components, combining innovation, precision, and 
-            reliability to strengthen security and mobility worldwide.
-        </p>
+        <main>
 
 
+            <!--RHEINMETALL IS...-->
+            <h1 class="rheinmetallis">
+                Rheinmetall is:
+                <span id="dynamicWords"></span>
 
-        <script src="js/custom.js"></script>
+            </h1>
+            <section class="rhnmtlHide">
+                <div class="counter" data-counter-target="1500">0</div>
+                <div class="counter" data-counter-target="42">0</div>
+            </section>
+            <p class="txtAboutRhnmtl">
+                Rheinmetall is a leading German company specializing in defense and automotive technologies, providing 
+                advanced military vehicles, weapons systems, ammunition, electronic 
+                solutions, and industrial components, combining innovation, precision, and 
+                reliability to strengthen security and mobility worldwide.
+            </p>
+
+
+            <!--Script for rhnmtl_is-->
+            <script src="js/rhnmtl_is.js"></script>
+
+            
+            <!--BOX-->
+            <section class="rhnmtl_stats">
+
+                <div class="rhnmtl_stat">
+                    <span class="rhnmtl_number" data-target="130">0</span>
+                    <p>YEARS OF<br>ENGINEERING EXCELLENCE</p>
+                </div>
+
+                <div class="rhnmtl_stat"> 
+                    <span class="rhnmtl_number" data-target="25000">0</span>
+                    <p>EMPLOYEES<br>WORLDWIDE</p>
+                </div>
+
+                <div class="rhnmtl_stat">
+                    <span class="rhnmtl_number" data-target="30">0</span>
+                    <p>COUNTRIES</p>
+                </div>
+
+                <div class="rhnmtl_stat">
+                    <span class="plus">&euro;</span><span class="rhnmtl_number" data-target="7">0</span>
+                    <p>ANNUAL<br>REVENUE</p>
+                </div>
+
+                <div class="rhnmtl_stat">
+                    <span class="rhnmtl_number" data-target="100">0</span>
+                    <p>GLOBAL<br>LOCATIONS</p>
+                </div>
+
+
+
+                <!--Script for BOX-->
+                <script src="js/box.js"></script>
+
+
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2026 My site. Don`t know anything about rigths.</p>
+        </footer>
     </body>
 </html>
+
