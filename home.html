@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="us">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        
+        <title>Rheinmetall</title>
+
+
+        <!--Debug-->
+        <link rel="stylesheet" href="main_css/debug.css">
+
+        
+        <!--Favicon-->
+        <link rel="icon" type="image/x-icon" href="images/Rheinmetall_Favicon.png">
+
+        
+        <!--Style for Background-->
+        <link rel="stylesheet" href="main_css/main.css">
+        
+
+        <!--Style for "Topnav"-->
+        <link rel="stylesheet" href="main_css/style_topnav.css">
+
+        
+        <!--Style for "Menu" button on top-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+        <!--Style for "Rheinmetall is"-->
+        <link rel="stylesheet" href="home_css/rhnmtl_is.css">
+
+
+        <!--Style for "Box"-->
+        <link rel="stylesheet" href="home_css/box.css">
+
+
+        <!--Style for "Footer"-->
+        <link rel="stylesheet" href="main_css/footer.css">
+
+
+        <!--Style for "About Us"-->
+        <link rel="stylesheet" href="home_css/about_us.css">
+
+
+        <!--Style for "Products"-->
+        <link rel="stylesheet" href="home_css/products.css">
+
+
+
+
+        <!--Smooth Scroll-->
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            
+
+            <!--TOPNAV-->
+            <div class="topnav debug" id="myTopnav">
+                <a href="#home"><img src="images/rheinmetall-logo.svg" alt="Rheinmetall" class="rheinmetall-logo debug"></a>
+                <a href="#contact" class="but1 debug">Contact</a>
+                <a href="#products" class="but1 debug">Products</a>
+                <a href="#about_us" class="but1 debug">About Us</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+            <!--<script src="js/topnav.js"></script>-->
+
+        </header>
+
+        <main>
+
+
+            <!--RHEINMETALL IS...-->
+            <h1 class="rheinmetallis debug" id="home">
+                Rheinmetall is:
+                <span id="dynamicWords"></span>
+
+            </h1>
+            <section class="rhnmtlHide">
+                <div class="counter" data-counter-target="1500">0</div>
+                <div class="counter" data-counter-target="42">0</div>
+            </section>
+            <p class="txtAboutRhnmtl debug">
+                Rheinmetall is a leading German company specializing in defense and automotive technologies, providing 
+                advanced military vehicles, weapons systems, ammunition, electronic 
+                solutions, and industrial components, combining innovation, precision, and 
+                reliability to strengthen security and mobility worldwide.
+            </p>
+
+
+            <!--Script for rhnmtl_is-->
+            <script src="js/rhnmtl_is.js"></script>
+
+            
+            <!--BOX-->
+            <section class="rhnmtl_stats debug">
+
+                <div class="rhnmtl_stat debug">
+                    <span class="rhnmtl_number debug" data-target="130">0</span>
+                    <p>YEARS OF<br>ENGINEERING EXCELLENCE</p>
+                </div>
+
+                <div class="rhnmtl_stat debug"> 
+                    <span class="rhnmtl_number debug" data-target="25000">0</span>
+                    <p>EMPLOYEES<br>WORLDWIDE</p>
+                </div>
+
+                <div class="rhnmtl_stat debug">
+                    <span class="rhnmtl_number debug" data-target="30">0</span>
+                    <p>COUNTRIES</p>
+                </div>
+
+                <div class="rhnmtl_stat debug">
+                    <span class="plus debug">&euro;</span><span class="rhnmtl_number debug" data-target="7">0</span>
+                    <p>ANNUAL<br>REVENUE</p>
+                </div>
+
+                <div class="rhnmtl_stat debug">
+                    <span class="rhnmtl_number debug" data-target="100">0</span>
+                    <p>GLOBAL<br>LOCATIONS</p>
+                </div>
+
+
+
+                <!--Script for BOX-->
+                <script src="js/box.js"></script>
+            </section>
+
+            <!--About Us-->
+            <section id="about_us" class="debug">
+                <h1>About Us</h1>
+                <p>Rheinmetall is a global technology group with over 130 years of engineering excellence. Founded in 1889 and headquartered in Düsseldorf, Germany, the company stands at the forefront of defense, security, and industrial innovation.</p>
+                <p>With a workforce of more than 25,000 professionals and operations in 30+ countries, Rheinmetall delivers advanced solutions that meet the highest standards of precision, reliability, and performance. The company is a trusted partner to governments and industries worldwide, supporting armed forces and civil sectors with cutting-edge technologies.</p>
+                <p>Rheinmetall’s portfolio spans armored vehicles, weapon systems, ammunition, electronic solutions, and digital security technologies, combining decades of experience with continuous innovation. Significant investments in research and development ensure readiness for the challenges of tomorrow, including automation, artificial intelligence, and next-generation defense systems.</p>
+                <p>Driven by responsibility and sustainability, Rheinmetall actively integrates environmental and ethical standards into its operations while advancing dual-use technologies for both military and civilian applications.</p>
+                <h3>Rheinmetall — engineering security for a safer future.</h3>
+            </section>
+
+            <!--About Us img-->
+            <div class="leopard2_img debug">
+                <img src="https://www.rheinmetall.com/Rheinmetall%20Group/Systeme%20und%20Produkte/Waffen%20und%20Munition/Grosskaliberwaffen%20und%20Munition/18209/image-thumb__18209__small-stage/Rheinmetall-Panther-KF51-130mm.267313a4.png" 
+                id="leopard2_img" alt="leopard 2">
+            </div>
+
+            <!--Products-->
+            <h1 id="products" class="debug">Products</h1>
+
+            <section class="cards debug">
+                <a href="defence_systems.html" class="pr_defence_systems debug card">
+                    <span class="pr_defence_systems_sp">
+                        <p>Defence Systems</p>
+                </a>
+                <a href="ammunition.html" class="pr_ammunition debug card">
+                    <span class="pr_ammunition_sp">
+                        <p>Ammunition</p>
+                </a>
+                <a href="digital_and_electronic_solutions.html" class="pr_digital_and_electronic_solutions debug card">
+                    <span class="pr_digital_and_electronic_solutions_sp">
+                        <p>Digital and Electronic Solutions</p>
+                </a>
+                <a href="simulation_and_training.html" class="pr_simulation_and_training debug card">
+                    <span class="pr_simulation_and_training_sp">
+                        <p>Simulation and Training</p>
+                </a>
+            </section>
+
+        </main>
+
+        <footer class="footer debug">
+            <p>&copy; 2026 My site. Don`t know anything about rigths.</p>
+        </footer>
+    </body>
+</html>
+

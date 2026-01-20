@@ -1,5 +1,4 @@
 .rheinmetallis {
-    border: 1px solid red;
     position: relative;
     padding: 110px 10% 0px 10%;
     height: 150px;
@@ -13,9 +12,9 @@
 
 
 .txtAboutRhnmtl {
-    border: 1px solid red;
     position: relative;
-    padding: 10px 0% 0px 10%;
+    margin-left: 10%;
+    margin-right: 30%;
     font-family: "Lucida Console", "Courier New", monospace;
     margin-right: 30%;
 }

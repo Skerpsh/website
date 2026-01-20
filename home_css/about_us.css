@@ -1,0 +1,17 @@
+#about_us {
+    margin-right: 30%;
+    margin-left: 10%;
+    padding: 100px 0px 0px 0px;
+}
+
+
+
+#leopard2_img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    z-index: -50;
+}
+
+
+
