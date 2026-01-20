@@ -1,0 +1,56 @@
+.gradient {
+    position: relative;
+    width: 100%;
+}
+
+.gradient img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.gradient::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to top,
+        rgba(100, 153, 217, 1),
+        rgba(105, 105, 105, 0.9)
+    );
+    z-index: 1;
+}
+
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: clamp(20px, 5vw, 80px);
+}
+
+
+.content {
+    max-width: 1100px;
+    width: 100%;
+    color: white;
+}
+
+
+.content h1 {
+    font-size: clamp(28px, 5vw, 56px);
+    margin-bottom: 16px;
+}
+
+.content p {
+    font-size: clamp(16px, 2vw, 22px);
+    line-height: 1.5;
+    max-width: 600px;
+}
+

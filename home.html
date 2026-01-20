@@ -42,10 +42,16 @@
         <!--Style for "About Us"-->
         <link rel="stylesheet" href="home_css/about_us.css">
 
+        <!--Style for about us img-->
+        <link rel="stylesheet" href="home_css/about_us_img.css">
+
 
         <!--Style for "Products"-->
         <link rel="stylesheet" href="home_css/products.css">
 
+
+        <!--Style for "Gradient_KF51"-->
+        <link rel="stylesheet" href="home_css/gradient.css">
 
 
 
@@ -126,7 +132,7 @@
 
                 <div class="rhnmtl_stat debug">
                     <span class="rhnmtl_number debug" data-target="100">0</span>
-                    <p>GLOBAL<br>LOCATIONS</p>
+                    <p id="about_us">GLOBAL<br>LOCATIONS</p>
                 </div>
 
 
@@ -136,7 +142,7 @@
             </section>
 
             <!--About Us-->
-            <section id="about_us" class="debug">
+            <section class="about_us_txt debug">
                 <h1>About Us</h1>
                 <p>Rheinmetall is a global technology group with over 130 years of engineering excellence. Founded in 1889 and headquartered in Düsseldorf, Germany, the company stands at the forefront of defense, security, and industrial innovation.</p>
                 <p>With a workforce of more than 25,000 professionals and operations in 30+ countries, Rheinmetall delivers advanced solutions that meet the highest standards of precision, reliability, and performance. The company is a trusted partner to governments and industries worldwide, supporting armed forces and civil sectors with cutting-edge technologies.</p>
@@ -146,13 +152,19 @@
             </section>
 
             <!--About Us img-->
-            <div class="leopard2_img debug">
-                <img src="https://www.rheinmetall.com/Rheinmetall%20Group/Systeme%20und%20Produkte/Waffen%20und%20Munition/Grosskaliberwaffen%20und%20Munition/18209/image-thumb__18209__small-stage/Rheinmetall-Panther-KF51-130mm.267313a4.png" 
-                id="leopard2_img" alt="leopard 2">
-            </div>
+            <section id="about_us_img" class="debug">
+                <div id="products" class="leopard2_img debug">
+                    <img src="https://www.rheinmetall.com/Rheinmetall%20Group/Systeme%20und%20Produkte/Waffen%20und%20Munition/Grosskaliberwaffen%20und%20Munition/18209/image-thumb__18209__small-stage/Rheinmetall-Panther-KF51-130mm.267313a4.png" id="leopard2_img" alt="leopard 2" class="overlay-leo">
+                    <div class="overlay_about_us debug">
+                        <div class="content_about_us debug">
+                            <h1 id="">Products</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <!--Products-->
-            <h1 id="products" class="debug">Products</h1>
+            <h1 class="products_text debug"></h1>
 
             <section class="cards debug">
                 <a href="defence_systems.html" class="pr_defence_systems debug card">
@@ -173,10 +185,24 @@
                 </a>
             </section>
 
+            <p class="products_text debug">Rheinmetall offers a wide range of advanced solutions for 
+            defense and industrial applications. 
+            From armored vehicles and weapon systems to ammunition and digital technologies, each product is 
+            designed to meet the highest standards of performance, reliability, and innovation. 
+            Our portfolio demonstrates decades of engineering excellence, operational experience, 
+            and a commitment to delivering secure and efficient solutions worldwide.</p>
+
+            <div class="gradient">
+                <img src="images/KF51.webp" alt="KF51">
+                <div class="overlay debug">
+                    <h1 class="content">Rheinmetall — powering security for a safer future.</h1>
+                </div>
+            </div>
         </main>
 
-        <footer class="footer debug">
+        <footer id="contact" class="footer debug">
             <p>&copy; 2026 My site. Don`t know anything about rigths.</p>
+            <a href="https://www.instagram.com/rheinmetallag?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a>
         </footer>
     </body>
 </html>

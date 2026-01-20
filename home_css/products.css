@@ -1,16 +1,20 @@
 #products {
-    margin-right: 30%;
-    margin-left: 30%;
+    margin-right: 0%;
+    margin-left: 0%;
     text-align: center;
     padding: 100px 0px 0px 0px;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .cards {
     display: flex;
-    gap: 20px;                 /* расстояние между карточками */
-    justify-content: center;   /* по центру */
+    gap: 20px;
+    justify-content: center;
     padding: 40px;
     flex-wrap: wrap;
+    background-color: #696969;
 }
 
 .card {
@@ -22,3 +26,9 @@
     border-radius: 8px;
 }
 
+.products_text {
+    color: white;
+    margin: 0px 0px 0px 0px;
+    padding: 2% 10% 3% 10%;
+    background-color: #696969;
+}
