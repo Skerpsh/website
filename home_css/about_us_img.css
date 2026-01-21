@@ -5,7 +5,7 @@
 
 .leopard2_img {
     position: relative;
-    width: 100%;
+    max-width: 100%;
     margin-left: calc(-50vw + 50%);
 }
 
