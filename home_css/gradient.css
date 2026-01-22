@@ -17,7 +17,7 @@
     background: linear-gradient(
         to top,
         rgba(100, 153, 217, 1),
-        rgba(105, 105, 105, 0.9)
+        rgba(105, 105, 105, 0.8)
     );
     z-index: 1;
 }
