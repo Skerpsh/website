@@ -13,7 +13,7 @@
 
 .rhnmtl_stat {
     flex: 1 1 45%;
-    display: flex;
+    display: row;
     flex-direction: column;
     justify-content: flex-start;
     font-family: "Lucida Console", "Courier New", monospace;
