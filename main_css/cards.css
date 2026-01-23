@@ -13,7 +13,7 @@
     background: #222;
     color: white;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 16px;
 }
 
 .products_text {
@@ -23,3 +23,7 @@
     padding: 0% 10% 0% 10%;
     background-color: white;
 }
+
+
+/*FROM HOW TO*/
+.card:hover {opacity: 0.8}

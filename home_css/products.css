@@ -32,3 +32,6 @@
     padding: 2% 10% 3% 10%;
     background-color: #696969;
 }
+
+/*FROM HOW TO*/
+.card:hover {opacity: 0.8}
