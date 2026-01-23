@@ -1,0 +1,123 @@
+/*Small and Medium Caliber block*/
+
+#Small_and_Medium_Caliber {
+    border: 1px solid #c7edca;
+    margin-top: 0px;
+    margin-right: 0%;
+    scroll-margin-top: 100px;
+    background-color: #c7edca;
+    color: black;
+}
+
+.AVSection {
+    margin-left: 10%;
+    margin-right: 30%;
+}
+
+.gradientL {
+    max-width: 100%;
+    position: relative;
+}
+
+.gradientL {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gradientL::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to top,
+        rgba(184, 232, 242, 0.8),
+        rgba(199, 237, 202, 0.8)
+    );
+    z-index: 1;
+}
+
+
+
+
+/*Large Caliber Artillery block*/
+
+#Weapon_Systems {
+    border: 1px solid #b8e8f2;
+    margin-top: 0px;
+    margin-right: 0%;
+    scroll-margin-top: 100px;
+    background-color: #b8e8f2;
+    color: black;
+}
+
+.WSSection {
+    margin-left: 10%;
+    margin-right: 30%;
+}
+
+.gradientE {
+    max-width: 100%;
+    position: relative;
+}
+
+.gradientE {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gradientE::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(184, 232, 242, 0.8),
+        rgba(191, 177, 172, 0.8)
+    );
+    z-index: 1;
+}
+
+
+/*Smart and Programmable Ammunition block*/
+
+#Air_Defense_Solutions {
+    border: 1px solid #c7edca;
+    margin-top: 0px;
+    margin-right: 0%;
+    scroll-margin-top: 100px;
+    background-color: #bfb1ac;
+    color: black;
+}
+
+.ADSSection {
+    margin-left: 10%;
+    margin-right: 30%;
+}
+
+
+
+.gradientS {
+    max-width: 100%;
+    position: relative;
+}
+
+.gradientS {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gradientS::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(191, 177, 172, 0.8),
+        rgba(100, 152, 217, 0.8)
+    );
+    z-index: 1;
+}
+
